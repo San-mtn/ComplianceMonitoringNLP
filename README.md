@@ -1,5 +1,5 @@
 # ComplianceMonitoringNLP
-his repository contains all scripts, configurations, and data for the NLP project.
+This repository contains all scripts, configurations, and data for my master thesis.
 
 ## Directory Structure
 1. [**scripts/**](scripts/): Scripts for performing experiments.
