@@ -3,11 +3,10 @@ This repository contains all scripts, configurations, and data for my master the
 
 ## Directory Structure
 1. [**scripts/**](scripts/): Scripts for performing experiments.
-2. [**src/**](src/): Supporting code, including preprocessing and tokenization.
-3. [**config/**](config/): Configuration files for model training.
-4. [**examples/**](examples/): Examples of predictions/outputs.
-5. [**data/**](data/): Data and saved models
-6. [**media/**](media/): Media files for demo purposes
+2. [**src/**](src/): Supporting code, including EDA, preprocessing and tokenization.
+3. [**examples/**](examples/): Examples of predictions/outputs.
+4. [**data/**](data/): Data and saved models
+5. [**media/**](media/): Media files for demo purposes
 
 ## Installation
 You can install this repository by following these steps:
