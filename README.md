@@ -1,21 +1,53 @@
 # ComplianceMonitoringNLP
+This repository contains all scripts, configurations, and data for my master thesis.
 
-## Project Folder Structure
-There are the following folders in the structure:
-
-1. scripts: Folder with the scripts used to perform all experiments, including individual bash scripts for each one of the pivot-based models pipelines and a python script for the gpt-based experiment.
-2. src: Folder containing all supporting code, such as preprocessing and filtering scripts, tokenization, extraction of domain-specific subsets of the translation corpora, etc.
-3. config: Folder containing configuration files for the training of the models
-4. examples: Folder containing examples of translations and simplifications of sentences for the different pipelines, as well as the manual numerical preservation reviews.
-5. NMT-Data: Folder where all data will be downloaded and models will be saved
-6. media: Folder containing media files for demo purposes
+## Directory Structure
+1. [**scripts/**](scripts/): Scripts for performing experiments.
+2. [**src/**](src/): Supporting code, including preprocessing and tokenization.
+3. [**config/**](config/): Configuration files for model training.
+4. [**examples/**](examples/): Examples of predictions/outputs.
+5. [**data/**](data/): Data and saved models
+6. [**media/**](media/): Media files for demo purposes
 
 ## Installation
+You can install this repository by following these steps:
 
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/San-mtn/ComplianceMonitoringNLP.git
+
+2. Install the requirements:
+   ```sh
+   pip install -r requirements.txt
 
 ## Usage
+The **scripts/** folder contains separate notebooks for each NLP model used in the experiments of enhancing compliance monitoring through the application of advanced NLP techniques (SpaCy, RobBERT, GPT-3.5, Llama). Each notebook is self-contained and covers the full setup and execution of the experiment:
+* Installation of requirements: Each notebook begins with the setup required to run the experiments, including the installation of necessary Python packages.
+* Importing the Data: The data from the [**data/**](data/) folder is imported and ready to use.
+* Model Training and Fine-tuning: Detailed steps on how to traine and fine-tune each model on the provided data, tailored to the specific characteristics and requirements of the Dutch language compliance documents.
+* Inference and Evaluation: Each notebook includes scripts for performing inference with the trained models and evaluating their performance against a test dataset. This includes detailed commands on how to run the models and interpret the output.
+* Compliance Monitoring Pipeline: To facilitate the practical application in compliance monitoring, the notebooks provide a guided approach to using these models to identify and categorize organization names within financial documents.
 
-## How it works
+## Running the Notebooks
+To execute the experiments within any of the provided notebooks, follow these steps:
+1. Prepare the environment:
+   Ensure Python is installed. Clone this repository and navigate to the desired notebook:
+   ```sh
+   git clone https://github.com/San-mtn/ComplianceMonitoringNLP.git
+
+2. Install dependencies:
+   Install the required Python libraries using pip:
+   ```sh
+   pip install -r requirements.txt
+
+3. Download Data:
+   Download the necessary datasets from the [**data/**](data/) folder as described in each notebook.
+
+4. Run the notebooks:
+   Open Jupyter Notebook for the model you are interested in:
+   ```sh
+   jupyter notebook spacy_model.ipynb'''
+   Repeat for robbert_model.ipynb, gpt_3_5_model.ipynb, and llama_model.ipynb as required.
 
 ## Acknowledgements
 
