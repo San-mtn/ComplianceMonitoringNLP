@@ -3,7 +3,7 @@ This repository contains all scripts, configurations, and data for my master the
 
 ## Directory Structure
 1. [**scripts/**](scripts/): Scripts for performing experiments.
-2. [**src/**](src/): Supporting code, including EDA, preprocessing and tokenization.
+2. [**src/**](src/): Supporting code, including EDA, data cleaning and the scraper code.
 3. [**examples/**](examples/): Examples of predictions/outputs.
 4. [**data/**](data/): Data and saved models
 
