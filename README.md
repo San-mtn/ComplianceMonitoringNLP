@@ -1,4 +1,7 @@
 # ComplianceMonitoringNLP
+
+![Accuracies of models compared to current method](images/barplot_accuracies.png)
+
 This repository contains all scripts, configurations, and data for my master thesis.
 
 ## Directory Structure
