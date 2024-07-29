@@ -48,6 +48,3 @@ To execute the experiments within any of the provided notebooks, follow these st
    ```sh
    jupyter notebook spacy_model.ipynb'''
    Repeat for robbert_model.ipynb, gpt_3_5_model.ipynb, and llama_model.ipynb as required.
-
-## Acknowledgements
-
